@@ -79,13 +79,6 @@
 			<version>2.3.3</version>
 		</dependency>
 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-
-
 		<!-- to compensate for java 9 not including jaxb -->
 		<dependency>
 		    <groupId>javax.xml.bind</groupId>
@@ -95,22 +88,5 @@
 
 	</dependencies>
 
-<!--	<build>-->
-
-<!--		<finalName>spring-crm-rest</finalName>-->
-
-<!--		<plugins>-->
-
-<!--			&lt;!&ndash; Builds a Web Application Archive (WAR) file from the project output -->
-<!--				and its dependencies. &ndash;&gt;-->
-<!--			<plugin>-->
-<!--				&lt;!&ndash; Add Maven coordinates (GAV) for: maven-war-plugin &ndash;&gt;-->
-<!--				<groupId>org.apache.maven.plugins</groupId>-->
-<!--				<artifactId>maven-war-plugin</artifactId>-->
-<!--				<version>3.2.0</version>-->
-<!--			</plugin>-->
-
-<!--		</plugins>-->
-<!--	</build>-->
 </project>
 
